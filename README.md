@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# 🎓 Scholarship360
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Scholarship360** is a premium, full-stack MERN (MongoDB, Express, React, Node.js) application designed to bridge the gap between students and life-changing financial opportunities. With a modern, intuitive interface and robust administrative controls, it streamlines the entire scholarship lifecycle.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Pure MERN Stack Architecture
 
-### `npm start`
+This project is built from the ground up using the industry-standard MERN stack, ensuring high performance, scalability, and a unified JavaScript development experience.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+-   **Frontend**: React.js with modern Hooks and Context API for state management.
+-   **Backend**: Node.js & Express.js handling RESTful API endpoints.
+-   **Database**: MongoDB for flexible, document-based data storage.
+-   **Styling**: Vanilla CSS with localized Design Tokens and React-Bootstrap for responsiveness.
+-   **Security**: Authentication and protected routing for both Users and Administrators.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## ✨ Key Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-   **Modern UI/UX**: Professional glassmorphism design with responsive accessibility.
+-   **Impact Dashboard**: Real-time statistics visualization for transparency.
+-   **Intelligent Categories**: Easy navigation through Merit-based, Need-based, International, and Research scholarships.
+-   **Multi-Step Application**: A user-friendly 3-step wizard that simplifies the documentation process.
+-   **Admin Suite**: Comprehensive controls for creating, updating, and managing scholarship schemes and student applications.
+-   **SEO Optimized**: Built with performance and visibility in mind.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ Installation & Setup
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
+-   Node.js (v14+)
+-   MongoDB (Local or Atlas)
+-   npm or yarn
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### 2. Backend Setup
+```bash
+cd server
+npm install
+```
+*Create a `.env` file or update `app.js` with your MongoDB URI.*
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 3. Frontend Setup
+```bash
+cd ../client
+npm install
+npm start
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 👨‍💻 Author
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**Harshan N**
+-   Email: [harshanharsha07@gmail.com](harshanharsha07@gmail.com)
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🤝 Contributing
 
-### Code Splitting
+We welcome contributions! Whether it's a bug fix, a new feature, or feedback on the design, feel free to open a Pull Request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
